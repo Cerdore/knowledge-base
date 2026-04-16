@@ -1,0 +1,1045 @@
+{
+  "chapters": [
+    {
+      "chapter": "AI基础设施（AI Infra）基础入门",
+      "page": 2
+    },
+    {
+      "chapter": "LLM训练与推理基础",
+      "page": 2
+    },
+    {
+      "chapter": "AI Infra最新前沿论文分析（2024-2025）",
+      "page": 2
+    },
+    {
+      "chapter": "Prefill-Decode (PD) 分离技术详解",
+      "page": 3
+    },
+    {
+      "chapter": "KV Cache存储与网络传输优化",
+      "page": 3
+    },
+    {
+      "chapter": "Mooncake和AI Serving Stack",
+      "page": 3
+    },
+    {
+      "chapter": "AI Infra核心算法详解",
+      "page": 4
+    },
+    {
+      "chapter": "技术图表集",
+      "page": 4
+    },
+    {
+      "chapter": "AI基础设施（AI Infra）基础入门",
+      "page": 5
+    },
+    {
+      "chapter": "LLM训练与推理基础",
+      "page": 54
+    },
+    {
+      "chapter": "AI Infra最新前沿论文分析（2024-",
+      "page": 95
+    },
+    {
+      "chapter": "Prefill-Decode (PD) 分离技术详解",
+      "page": 119
+    },
+    {
+      "chapter": "KV Cache存储与网络传输优化",
+      "page": 208
+    }
+  ],
+  "sections": {
+    "AI基础设施（AI Infra）基础入门": [
+      {
+        "num": "1.1",
+        "title": "AI Infra的定义和范畴",
+        "page": 2
+      },
+      {
+        "num": "1.2",
+        "title": "AI训练和推理系统的整体架构",
+        "page": 2
+      },
+      {
+        "num": "1.3",
+        "title": "GPU/TPU/NPU等AI加速硬件详解",
+        "page": 2
+      },
+      {
+        "num": "1.4",
+        "title": "分布式训练基础",
+        "page": 2
+      },
+      {
+        "num": "1.5",
+        "title": "集群网络和通信",
+        "page": 2
+      },
+      {
+        "num": "1.6",
+        "title": "存储系统在AI中的作用",
+        "page": 2
+      },
+      {
+        "num": "1.7",
+        "title": "AI Serving系统的演进",
+        "page": 2
+      },
+      {
+        "num": "1.1",
+        "title": "AI Infra的定义和范畴",
+        "page": 5
+      },
+      {
+        "num": "1.2",
+        "title": "AI训练和推理系统的整体架构",
+        "page": 7
+      },
+      {
+        "num": "1.3",
+        "title": "GPU/TPU/NPU等AI加速硬件详解",
+        "page": 10
+      },
+      {
+        "num": "19.5",
+        "title": "TFLOPS",
+        "page": 10
+      },
+      {
+        "num": "1.4",
+        "title": "分布式训练基础",
+        "page": 18
+      },
+      {
+        "num": "1.5",
+        "title": "集群网络和通信",
+        "page": 25
+      },
+      {
+        "num": "1.6",
+        "title": "存储系统在AI中的作用",
+        "page": 34
+      },
+      {
+        "num": "1.7",
+        "title": "AI Serving系统的演进",
+        "page": 42
+      }
+    ],
+    "LLM训练与推理基础": [
+      {
+        "num": "2.1",
+        "title": "Transformer架构详解",
+        "page": 2
+      },
+      {
+        "num": "2.2",
+        "title": "LLM训练流程",
+        "page": 2
+      },
+      {
+        "num": "2.3",
+        "title": "训练优化技术",
+        "page": 2
+      },
+      {
+        "num": "2.4",
+        "title": "LLM推理的两个阶段",
+        "page": 2
+      },
+      {
+        "num": "2.5",
+        "title": "KV Cache的原理和作用",
+        "page": 2
+      },
+      {
+        "num": "2.6",
+        "title": "推理优化技术",
+        "page": 2
+      },
+      {
+        "num": "2.7",
+        "title": "批处理和调度策略",
+        "page": 2
+      },
+      {
+        "num": "2.1",
+        "title": "Transformer架构详解",
+        "page": 54
+      },
+      {
+        "num": "2.2",
+        "title": "LLM训练流程",
+        "page": 61
+      },
+      {
+        "num": "2.3",
+        "title": "训练优化技术",
+        "page": 65
+      },
+      {
+        "num": "2.4",
+        "title": "LLM推理的两个阶段",
+        "page": 71
+      },
+      {
+        "num": "2.5",
+        "title": "KV Cache的原理和作用",
+        "page": 75
+      },
+      {
+        "num": "2.0",
+        "title": "GB",
+        "page": 77
+      },
+      {
+        "num": "4.0",
+        "title": "GB",
+        "page": 77
+      },
+      {
+        "num": "16.0",
+        "title": "GB",
+        "page": 77
+      },
+      {
+        "num": "3.1",
+        "title": "GB",
+        "page": 77
+      },
+      {
+        "num": "6.3",
+        "title": "GB",
+        "page": 77
+      },
+      {
+        "num": "25.0",
+        "title": "GB",
+        "page": 77
+      },
+      {
+        "num": "10.0",
+        "title": "GB",
+        "page": 77
+      },
+      {
+        "num": "20.0",
+        "title": "GB",
+        "page": 77
+      },
+      {
+        "num": "80.0",
+        "title": "GB",
+        "page": 77
+      },
+      {
+        "num": "1.3",
+        "title": "TB",
+        "page": 77
+      },
+      {
+        "num": "2.6",
+        "title": "推理优化技术",
+        "page": 79
+      },
+      {
+        "num": "2.7",
+        "title": "批处理和调度策略",
+        "page": 85
+      },
+      {
+        "num": "2.8",
+        "title": "总结与展望",
+        "page": 91
+      }
+    ],
+    "AI Infra最新前沿论文分析（2024-2025）": [
+      {
+        "num": "3.1",
+        "title": "引言：LLM推理优化的核心挑战",
+        "page": 2
+      },
+      {
+        "num": "3.2",
+        "title": "OSDI 2024论文深度分析",
+        "page": 2
+      },
+      {
+        "num": "3.3",
+        "title": "FAST 2025最佳论文：Mooncake深度解析",
+        "page": 2
+      },
+      {
+        "num": "3.4",
+        "title": "ASPLOS 2024论文深度分析",
+        "page": 2
+      },
+      {
+        "num": "3.5",
+        "title": "其他重要工作",
+        "page": 3
+      },
+      {
+        "num": "3.6",
+        "title": "技术演进脉络分析",
+        "page": 3
+      },
+      {
+        "num": "3.7",
+        "title": "技术对比总结",
+        "page": 3
+      }
+    ],
+    "Prefill-Decode (PD) 分离技术详解": [
+      {
+        "num": "4.1",
+        "title": "为什么需要PD分离",
+        "page": 3
+      },
+      {
+        "num": "4.2",
+        "title": "PD分离的基本架构",
+        "page": 3
+      },
+      {
+        "num": "4.3",
+        "title": "Chunked Prefill vs PD Disaggregation",
+        "page": 3
+      },
+      {
+        "num": "4.4",
+        "title": "Mooncake的PD分离实现",
+        "page": 3
+      },
+      {
+        "num": "4.5",
+        "title": "vLLM的Disaggregated Prefilling",
+        "page": 3
+      },
+      {
+        "num": "4.6",
+        "title": "DistServe的设计",
+        "page": 3
+      },
+      {
+        "num": "4.7",
+        "title": "KV Cache传输优化",
+        "page": 3
+      },
+      {
+        "num": "4.1",
+        "title": "为什么需要PD分离",
+        "page": 119
+      },
+      {
+        "num": "4.2",
+        "title": "PD分离的基本架构",
+        "page": 123
+      },
+      {
+        "num": "0.4",
+        "title": "* (1 - node.load) +           # 负载权重",
+        "page": 130
+      },
+      {
+        "num": "0.3",
+        "title": "* (1 - node.queue_depth / 10) + # 队列深度权重",
+        "page": 130
+      },
+      {
+        "num": "0.2",
+        "title": "* node.compute_capacity +      # 计算能力权重",
+        "page": 130
+      },
+      {
+        "num": "0.1",
+        "title": "* (1 if node.has_model(request.model) else 0)",
+        "page": 130
+      },
+      {
+        "num": "0.5",
+        "title": "* (1 - node.current_itl / 50) +  # ITL权重",
+        "page": 130
+      },
+      {
+        "num": "0.3",
+        "title": "* node.memory_bandwidth +        # 内存带宽权重",
+        "page": 130
+      },
+      {
+        "num": "0.2",
+        "title": "* (1 - node.batch_size / 256)    # 批大小权重",
+        "page": 130
+      },
+      {
+        "num": "4.3",
+        "title": "Chunked Prefill vs PD Disaggregation",
+        "page": 130
+      },
+      {
+        "num": "4.4",
+        "title": "Mooncake的PD分离实现",
+        "page": 135
+      },
+      {
+        "num": "4.5",
+        "title": "vLLM的Disaggregated Prefilling",
+        "page": 145
+      },
+      {
+        "num": "4.6",
+        "title": "DistServe的设计",
+        "page": 156
+      },
+      {
+        "num": "4.7",
+        "title": "PD分离中的KV Cache传输优化",
+        "page": 166
+      },
+      {
+        "num": "4.8",
+        "title": "调度策略和负载均衡",
+        "page": 178
+      },
+      {
+        "num": "4.9",
+        "title": "实际部署的挑战和解决方案",
+        "page": 189
+      },
+      {
+        "num": "4.10",
+        "title": "总结与展望",
+        "page": 202
+      }
+    ],
+    "KV Cache存储与网络传输优化": [
+      {
+        "num": "5.1",
+        "title": "KV Cache的基本原理",
+        "page": 3
+      },
+      {
+        "num": "5.2",
+        "title": "KV Cache的内存占用分析",
+        "page": 3
+      },
+      {
+        "num": "5.3",
+        "title": "PagedAttention机制",
+        "page": 3
+      },
+      {
+        "num": "5.4",
+        "title": "Prefix Caching技术",
+        "page": 3
+      },
+      {
+        "num": "5.5",
+        "title": "KV Cache的压缩和量化",
+        "page": 3
+      },
+      {
+        "num": "5.6",
+        "title": "分层存储架构",
+        "page": 3
+      },
+      {
+        "num": "5.7",
+        "title": "网络传输优化",
+        "page": 3
+      },
+      {
+        "num": "5.1",
+        "title": "KV Cache的基本原理",
+        "page": 208
+      },
+      {
+        "num": "5.2",
+        "title": "KV Cache的内存占用分析",
+        "page": 211
+      },
+      {
+        "num": "3.2",
+        "title": "GB",
+        "page": 213
+      },
+      {
+        "num": "1.6",
+        "title": "GB",
+        "page": 213
+      },
+      {
+        "num": "6.4",
+        "title": "GB",
+        "page": 213
+      },
+      {
+        "num": "3.2",
+        "title": "GB",
+        "page": 213
+      },
+      {
+        "num": "1.6",
+        "title": "GB",
+        "page": 213
+      },
+      {
+        "num": "25.6",
+        "title": "GB",
+        "page": 213
+      },
+      {
+        "num": "12.8",
+        "title": "GB",
+        "page": 213
+      },
+      {
+        "num": "6.4",
+        "title": "GB",
+        "page": 213
+      },
+      {
+        "num": "102.4",
+        "title": "GB",
+        "page": 213
+      },
+      {
+        "num": "51.2",
+        "title": "GB",
+        "page": 213
+      },
+      {
+        "num": "25.6",
+        "title": "GB",
+        "page": 213
+      },
+      {
+        "num": "819.2",
+        "title": "GB",
+        "page": 213
+      },
+      {
+        "num": "409.6",
+        "title": "GB",
+        "page": 213
+      },
+      {
+        "num": "204.8",
+        "title": "GB",
+        "page": 213
+      },
+      {
+        "num": "2.56",
+        "title": "GB",
+        "page": 214
+      },
+      {
+        "num": "1.28",
+        "title": "GB",
+        "page": 214
+      },
+      {
+        "num": "10.24",
+        "title": "GB",
+        "page": 214
+      },
+      {
+        "num": "2.56",
+        "title": "GB",
+        "page": 214
+      },
+      {
+        "num": "20.48",
+        "title": "GB",
+        "page": 214
+      },
+      {
+        "num": "5.12",
+        "title": "GB",
+        "page": 214
+      },
+      {
+        "num": "40.96",
+        "title": "GB",
+        "page": 214
+      },
+      {
+        "num": "10.24",
+        "title": "GB",
+        "page": 214
+      },
+      {
+        "num": "81.92",
+        "title": "GB",
+        "page": 214
+      },
+      {
+        "num": "5.3",
+        "title": "PagedAttention机制",
+        "page": 214
+      },
+      {
+        "num": "5.4",
+        "title": "Prefix Caching技术",
+        "page": 219
+      },
+      {
+        "num": "5.5",
+        "title": "KV Cache的压缩和量化",
+        "page": 223
+      },
+      {
+        "num": "20.48",
+        "title": "GB",
+        "page": 226
+      },
+      {
+        "num": "20.48",
+        "title": "GB",
+        "page": 226
+      },
+      {
+        "num": "10.24",
+        "title": "GB",
+        "page": 226
+      },
+      {
+        "num": "10.24",
+        "title": "GB",
+        "page": 226
+      },
+      {
+        "num": "5.12",
+        "title": "GB",
+        "page": 226
+      },
+      {
+        "num": "5.12",
+        "title": "GB",
+        "page": 226
+      },
+      {
+        "num": "5.6",
+        "title": "分层存储架构",
+        "page": 227
+      },
+      {
+        "num": "1.2",
+        "title": "TB/s",
+        "page": 227
+      },
+      {
+        "num": "1.5",
+        "title": "TB/s",
+        "page": 227
+      },
+      {
+        "num": "2.0",
+        "title": "TB/s",
+        "page": 227
+      },
+      {
+        "num": "1.5",
+        "title": "TB/s",
+        "page": 228
+      },
+      {
+        "num": "3.5",
+        "title": "GB/s",
+        "page": 230
+      },
+      {
+        "num": "1.5",
+        "title": "TB/s",
+        "page": 232
+      },
+      {
+        "num": "5.7",
+        "title": "KV Cache的网络传输优化",
+        "page": 232
+      },
+      {
+        "num": "5.8",
+        "title": "Mooncake的KV Cache-centric架构",
+        "page": 238
+      },
+      {
+        "num": "5.9",
+        "title": "LMCache的设计",
+        "page": 242
+      },
+      {
+        "num": "5.10",
+        "title": "InfiniStore等KV Cache存储系统",
+        "page": 246
+      },
+      {
+        "num": "5.11",
+        "title": "最佳实践与优化建议",
+        "page": 249
+      },
+      {
+        "num": "5.12",
+        "title": "本章小结",
+        "page": 251
+      },
+      {
+        "num": "6.1",
+        "title": "Mooncake项目背景",
+        "page": 254
+      },
+      {
+        "num": "6.2",
+        "title": "Mooncake的整体架构",
+        "page": 257
+      },
+      {
+        "num": "6.3",
+        "title": "核心组件详解",
+        "page": 260
+      },
+      {
+        "num": "6.4",
+        "title": "与vLLM的集成",
+        "page": 273
+      },
+      {
+        "num": "6.5",
+        "title": "与SGLang的集成",
+        "page": 279
+      },
+      {
+        "num": "6.6",
+        "title": "章明星团队介绍",
+        "page": 285
+      },
+      {
+        "num": "6.7",
+        "title": "Mooncake的开源生态",
+        "page": 287
+      },
+      {
+        "num": "6.8",
+        "title": "实际部署案例",
+        "page": 289
+      },
+      {
+        "num": "6.9",
+        "title": "性能数据和优化效果",
+        "page": 290
+      },
+      {
+        "num": "6.10",
+        "title": "使用指南",
+        "page": 291
+      },
+      {
+        "num": "6.11",
+        "title": "进阶主题",
+        "page": 297
+      },
+      {
+        "num": "7.1",
+        "title": "Attention算法家族",
+        "page": 311
+      },
+      {
+        "num": "7.2",
+        "title": "推理加速算法",
+        "page": 323
+      },
+      {
+        "num": "7.3",
+        "title": "调度算法",
+        "page": 338
+      },
+      {
+        "num": "7.4",
+        "title": "压缩算法",
+        "page": 349
+      },
+      {
+        "num": "7.5",
+        "title": "MoE相关算法",
+        "page": 361
+      },
+      {
+        "num": "7.6",
+        "title": "总结与展望",
+        "page": 372
+      },
+      {
+        "num": "2.1",
+        "title": "训练流程",
+        "page": 376
+      },
+      {
+        "num": "2.2",
+        "title": "推理流程",
+        "page": 376
+      },
+      {
+        "num": "3.1",
+        "title": "整体架构",
+        "page": 377
+      },
+      {
+        "num": "3.2",
+        "title": "Multi-Head Attention详细结构",
+        "page": 378
+      },
+      {
+        "num": "3.3",
+        "title": "FFN前馈网络",
+        "page": 379
+      },
+      {
+        "num": "4.1",
+        "title": "整体架构",
+        "page": 380
+      },
+      {
+        "num": "4.2",
+        "title": "核心组件说明",
+        "page": 382
+      },
+      {
+        "num": "5.1",
+        "title": "传统同构架构",
+        "page": 384
+      },
+      {
+        "num": "5.2",
+        "title": "PD分离架构",
+        "page": 384
+      },
+      {
+        "num": "5.3",
+        "title": "数据流对比",
+        "page": 385
+      },
+      {
+        "num": "6.1",
+        "title": "生命周期管理",
+        "page": 386
+      },
+      {
+        "num": "6.2",
+        "title": "分层存储架构",
+        "page": 387
+      },
+      {
+        "num": "7.1",
+        "title": "虚拟内存映射",
+        "page": 389
+      },
+      {
+        "num": "7.2",
+        "title": "Block分配与共享",
+        "page": 389
+      },
+      {
+        "num": "7.3",
+        "title": "内存布局对比",
+        "page": 390
+      },
+      {
+        "num": "8.1",
+        "title": "并行策略总览",
+        "page": 391
+      },
+      {
+        "num": "8.2",
+        "title": "数据并行(DP)详解",
+        "page": 392
+      },
+      {
+        "num": "8.3",
+        "title": "张量并行(TP)详解",
+        "page": 394
+      },
+      {
+        "num": "8.4",
+        "title": "流水线并行(PP)详解",
+        "page": 394
+      },
+      {
+        "num": "8.5",
+        "title": "并行策略组合",
+        "page": 395
+      },
+      {
+        "num": "9.1",
+        "title": "Continuous Batching",
+        "page": 396
+      },
+      {
+        "num": "9.2",
+        "title": "Chunked Prefill",
+        "page": 397
+      },
+      {
+        "num": "9.3",
+        "title": "调度策略对比",
+        "page": 398
+      },
+      {
+        "num": "10.1",
+        "title": "整体流程",
+        "page": 399
+      },
+      {
+        "num": "10.2",
+        "title": "详细时序",
+        "page": 400
+      },
+      {
+        "num": "10.3",
+        "title": "接受概率计算",
+        "page": 401
+      },
+      {
+        "num": "10.4",
+        "title": "变体对比",
+        "page": 402
+      }
+    ],
+    "Mooncake和AI Serving Stack": [
+      {
+        "num": "6.1",
+        "title": "Mooncake项目背景",
+        "page": 3
+      },
+      {
+        "num": "6.2",
+        "title": "Mooncake的整体架构",
+        "page": 3
+      },
+      {
+        "num": "6.3",
+        "title": "核心组件详解",
+        "page": 3
+      },
+      {
+        "num": "6.4",
+        "title": "与vLLM的集成",
+        "page": 3
+      },
+      {
+        "num": "6.5",
+        "title": "与SGLang的集成",
+        "page": 3
+      },
+      {
+        "num": "6.6",
+        "title": "章明星团队介绍",
+        "page": 4
+      },
+      {
+        "num": "6.7",
+        "title": "开源生态与部署案例",
+        "page": 4
+      }
+    ],
+    "AI Infra核心算法详解": [
+      {
+        "num": "7.1",
+        "title": "Attention算法家族",
+        "page": 4
+      },
+      {
+        "num": "7.2",
+        "title": "推理加速算法",
+        "page": 4
+      },
+      {
+        "num": "7.3",
+        "title": "调度算法",
+        "page": 4
+      },
+      {
+        "num": "7.4",
+        "title": "压缩算法",
+        "page": 4
+      },
+      {
+        "num": "7.5",
+        "title": "MoE相关算法",
+        "page": 4
+      }
+    ],
+    "AI Infra最新前沿论文分析（2024-": [
+      {
+        "num": "3.1",
+        "title": "引言：LLM推理优化的核心挑战",
+        "page": 95
+      },
+      {
+        "num": "3.2",
+        "title": "OSDI 2024论文深度分析",
+        "page": 96
+      },
+      {
+        "num": "3.3",
+        "title": "FAST 2025最佳论文：Mooncake深度解析",
+        "page": 101
+      },
+      {
+        "num": "3.4",
+        "title": "ASPLOS 2024论文深度分析",
+        "page": 106
+      },
+      {
+        "num": "3.5",
+        "title": "其他重要工作",
+        "page": 109
+      },
+      {
+        "num": "3.6",
+        "title": "技术演进脉络分析",
+        "page": 112
+      },
+      {
+        "num": "3.7",
+        "title": "技术对比总结",
+        "page": 115
+      },
+      {
+        "num": "3.8",
+        "title": "对Mooncake实习新人的建议",
+        "page": 116
+      },
+      {
+        "num": "3.9",
+        "title": "本章小结",
+        "page": 117
+      }
+    ],
+    "技术图表集": []
+  },
+  "key_terms": {
+    "Mooncake": 1056,
+    "推理": 161,
+    "KV Cache": 481,
+    "PD分离": 78,
+    "LLM": 210,
+    "训练": 149,
+    "GPU": 445,
+    "TPU": 16,
+    "NPU": 9,
+    "分布式": 43,
+    "Transformer": 44,
+    "Prefill": 324,
+    "vLLM": 106,
+    "DistServe": 31,
+    "PagedAttention": 49,
+    "SGLang": 25,
+    "MoE": 16,
+    "Decode": 282
+  }
+}
